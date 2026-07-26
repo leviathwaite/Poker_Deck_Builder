@@ -153,7 +153,7 @@ Example cards:
 ## 7) Meta-Progression
 Between runs:
 - Cards reset to basic starter deck.
-- Weapons would persist between runs when implemented (feature tabled for now).
+- Weapon persistence details are deferred with the tabled weapons system.
 - Relics: persistence categories are an open design question (see Section 10).
 - Unlocks: new cards, joker types, spoiled ace redemption paths.
 
