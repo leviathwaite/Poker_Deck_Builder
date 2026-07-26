@@ -185,3 +185,4 @@ Between runs:
 6. Boss mechanics (hand-gated vulnerability?).
 7. Spoiled Ace removability vs forced redemption.
 8. Joker acquisition model (drops, shop, events).
+9. Relic persistence categories between runs (which relics persist vs reset).
