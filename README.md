@@ -17,7 +17,7 @@ From the repository root:
 
 ```bash
 ./gradlew :core:test
-./gradlew :android:assembleDebug
+./gradlew -PincludeAndroid=true :android:assembleDebug
 ```
 
 Use Android Studio to run the `android` module on a device/emulator.

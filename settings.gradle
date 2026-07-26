@@ -1,2 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
 rootProject.name = 'Poker_Deck_Builder'
-include 'core', 'android'
+include 'core'
+
+def includeAndroid = providers.gradleProperty("includeAndroid")
+        .map { it.toBoolean() }
+        .orElse(false)
+        .get()
+
+if (includeAndroid) {
+    include 'android'
+}
