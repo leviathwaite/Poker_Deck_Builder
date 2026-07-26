@@ -154,11 +154,14 @@ Example cards:
 Between runs:
 - Cards reset to basic starter deck.
 - Weapon persistence details are deferred with the tabled weapons system.
-- Relics: persistence categories are an open design question (see Section 10).
+- Relics: persistence categories are an open design question (see Open Question 9).
 - Unlocks: new cards, joker types, spoiled ace redemption paths.
 
 ## 8) Side Points (Tabled for Later)
-- Pips system options (Count/Ante/Table) are postponed.
+- Pips system options are postponed:
+  - Count: card number is direct magnitude.
+  - Ante: pips are spendable amplifiers.
+  - Table: pips are grid-position/adjacency mechanics.
 - Weapons systems are postponed (passive modifiers rejected; mechanical identities preferred if revisited; fighting styles as simpler alternative).
 - Additional tabled mechanics:
   - Pip-grid positioning
