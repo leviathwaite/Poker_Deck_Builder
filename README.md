@@ -20,10 +20,10 @@ Hand size defaults to 5 and can be modified by relics, buffs, and status effects
 ## 2) Card System
 
 ### 2.1 Suits (Card Types)
-- **Hearts**: Healing (salves, bandages, whiskey)
-- **Clubs**: Attacks (bullets, punches, knives)
-- **Diamonds**: Money/Betting (gold, pot)
-- **Spades**: Stance/Defense (cover, hiding, elevation)
+- **Hearts**: Healing (salves, bandages, whiskey; detailed effects below)
+- **Clubs**: Attacks (bullets, punches, knives; detailed effects below)
+- **Diamonds**: Money/Betting (gold, pot; see Section 5)
+- **Spades**: Stance/Defense (cover, hiding, elevation; see Section 4)
 
 ### 2.2 Card Ranks & Base Effects
 - Number cards (3–10): base effect = rank value.
@@ -71,7 +71,7 @@ Redemption is permanent for the run.
 ### 2.5 Jokers
 Typed jokers:
 - Heart Joker: heal 3 HP; in hand doubles hand healing effects.
-- Club Joker: deal 3 random damage; in hand hand damage ignores 50% block.
+- Club Joker: deal 3 random damage; in hand, damage ignores 50% block.
 - Diamond Joker: gain 5 gold; in hand +50% gold from hand.
 - Spade Joker: gain 2 block; in hand stance effects last +1 turn.
 - Untyped Joker: draw 1 card; choose any suit bonus at half strength.
@@ -91,7 +91,7 @@ All recognized hands grant card effect sum + hand-type bonus.
 | Two Pair | Choose one pair; hits all enemies | Crossfire |
 | Three of a Kind | Triplet effect tripled | Triple Threat |
 | Straight | Draw 2 cards | On the Draw |
-| Flush | Suit mastery: massive suit amplification | Full House Saloon |
+| Flush | Suit mastery: massive suit amplification | Suit Sweep |
 | Full House | 3+2 effects at triple/double strength | Dead Man's Hand |
 | Four of a Kind | Quad effect ignores block/defense | Four Aces |
 | Straight Flush | All 5 effects trigger, hand returns to deck | Royal Run |
@@ -153,7 +153,7 @@ Example cards:
 ## 7) Meta-Progression
 Between runs:
 - Cards reset to basic starter deck.
-- Weapons persist between runs (feature tabled for now).
+- Weapons would persist between runs when implemented (feature tabled for now).
 - Relics: some persist (TBD).
 - Unlocks: new cards, joker types, spoiled ace redemption paths.
 
