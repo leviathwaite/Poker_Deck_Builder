@@ -61,10 +61,10 @@ Acquired via cursed relics, enemy abilities, or losing bets. They invert normal 
 
 | Spoiled Ace | Curse Effect | Redemption Trigger | Cleansed Effect |
 |---|---|---|---|
-| Rusty Bullet | Deal 8 damage to self | Play in hand that kills an enemy | Silver Bullet: execute enemies below 25% HP |
-| Marked Deck | Enemy gains 15 block | Play in Flush of Diamonds | High Roller: combat gold x1.5 |
-| Leech | Heal enemy for 10 | Play in Full House | Doc's Touch: overheal -> permanent max HP |
-| Broken Compass | Enter Lost stance (random) | Play in Straight Flush | True North: choose any stance, lasts 2 turns |
+| Rusty Bullet (Clubs) | Deal 8 damage to self | Play in hand that kills an enemy | Silver Bullet: execute enemies below 25% HP |
+| Marked Deck (Diamonds) | Enemy gains 15 block | Play in Flush of Diamonds | High Roller: combat gold x1.5 |
+| Leech (Hearts) | Heal enemy for 10 | Play in Full House | Doc's Touch: overheal -> permanent max HP |
+| Broken Compass (Spades) | Enter Lost stance (random) | Play in Straight Flush | True North: choose any stance, lasts 2 turns |
 
 Redemption is permanent for the run.
 
@@ -154,7 +154,7 @@ Example cards:
 Between runs:
 - Cards reset to basic starter deck.
 - Weapons would persist between runs when implemented (feature tabled for now).
-- Relics: some persist (TBD).
+- Relics: persistence categories are an open design question (see Section 10).
 - Unlocks: new cards, joker types, spoiled ace redemption paths.
 
 ## 8) Side Points (Tabled for Later)
