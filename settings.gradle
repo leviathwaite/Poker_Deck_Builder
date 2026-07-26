@@ -1,0 +1,2 @@
+rootProject.name = 'Poker_Deck_Builder'
+include 'core', 'android'
